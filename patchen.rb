@@ -25,8 +25,7 @@ linwait(1000,3000)
   end
   print "#{frontspace}#{thisstring}"
   puts "\n\n"
-  #sleep(rand(200)/100 + 150/100)
-linwait(2000,2500)
+  linwait(2000,2500)
 end
 frontspace = ''
 rand(40).times {|s| frontspace += ' '}
