@@ -8,16 +8,12 @@ def linwait(min,max)
 end
 
 print "The Murder of "
-#sleep((rand(100)/100) + 250/100)
 linwait(1000,3500)
 print "Two Men by a Young Kid Wearing "
-#sleep((rand(100)/100) + 150/100)
 linwait(1000,2500)
 print "Lemon Colored Gloves"
-#sleep((rand(100)/100) + 250/100)
 linwait(1000,3500)
 print "\n\n"
-#sleep((rand(100)/100) + 200/100)
 linwait(1000,3000)
 14.times do |s|
   interspace = rand(14) == 0 ? ' ' : ''
