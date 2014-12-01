@@ -1,3 +1,7 @@
+# Inspired by Kenneth Patchen
+# http://www.poetryfoundation.org/poem/175617
+
+
 # values in milliseconds
 def linwait(min,max)
   sleep(rand(max - min)/1000 + min/1000)
